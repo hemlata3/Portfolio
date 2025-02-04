@@ -1,0 +1,404 @@
+*{
+    margin: 0px;
+    padding: 0px; 
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 35px 12%;
+    background: black;
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+/* .logo {
+    font-size: 25px;
+    color: white;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+.logo:hover {
+    color: brown;
+    text-shadow: 0 0 25px brown;
+    transform: scale(1.1);
+} */
+
+span {
+    color: brown;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    margin: 0 20px;
+    border-bottom: 3px solid transparent;
+    transition: 0.3s ease;
+}
+
+.navbar a:hover {
+    color: brown;
+    border-bottom: 3px solid brown;
+}
+
+.contact {
+    padding: 10px 28px;
+    background-color: white;
+    color: black;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+.contact:hover {
+    background-color: brown;
+    box-shadow: 0 0 25px brown;
+    color: white;
+}
+
+.home {
+    width: 100%;
+    min-height: 100vh;
+    background: rgb(245, 249, 248);
+    display: flex;
+    align-items: center;
+    gap: 7em;
+    padding: 30px 12% 0;
+}
+.home-content {
+    max-width: 800px;
+}
+.home-content h3 {
+    font-size: 42px;
+}
+.home-content h1 {
+    font-size: 62px;
+}
+.home-content p {
+    font-size: 18px;
+    margin: 25px 0 20px;
+}
+
+/* .btn-box {
+    width: 345px;
+    display: flex;
+    gap: 2em;
+} */
+
+.btn-1 {
+    padding: 15px 28px;
+    background-color: black;
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.btn-1:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+
+.btn-2 {
+    padding: 15px 28px;
+    background-color: brown;
+    color: white;
+    border: 2px solid black;
+    border-radius: 8px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.btn-2:hover {
+    background-color: white;
+    color: brown;
+}
+
+.img-box img {
+    border-radius: 50%;
+    width: 550px;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: brown;
+}
+::-webkit-scrollbar-track {
+    background-color: black;
+}
+
+#about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 9%;
+    gap: 10em;
+    background: black;
+    height: 50%;
+}
+.about-img img {
+    position: relative;
+    width: 550px;
+    box-shadow: 0 0 25px brown;
+    border-radius: 50%;
+}
+.about-content h2 {
+    text-align: left;
+    color: white;
+    font-size: 42px;
+}
+.about-content h3 {
+    font-size: 62px;
+    color: white;
+}
+.about-content p {
+    color: white;
+    font-size: 20px;
+    margin: 2em 0 3em;
+}
+
+#skill-section {
+    background-color: white;
+    height: 600px;
+    display: block;
+    text-align: center;
+    padding-top: 30px;
+    font-size: x-large;
+}
+
+.skills {
+    height: 50%;
+    background-color: white;
+    margin-top: 20px;
+    display: flex;
+} 
+
+.skills .card-1 {
+    background-color: white;
+    width: 15%;
+    font-size: 18px;
+    height: 80%;
+    padding-top: 30px;
+    margin-top: 50px;
+    margin-inline: 4%;
+    box-shadow: 0 10px 20px;
+}
+.skills .card-2 {
+    background-color: white;
+    width: 15%;
+    font-size: 18px;
+    height: 80%;
+    padding-top: 30px;
+    margin-top: 50px;
+    margin-inline: 4%;
+    box-shadow: 0 10px 20px;
+}
+.skills .card-3 {
+    background-color: white;
+    width: 15%;
+    font-size: 18px;
+    height: 80%;
+    padding-top: 30px;
+    margin-top: 50px;
+    margin-inline: 4%;
+    box-shadow: 0 10px 20px;
+}
+.skills .card-4 {
+    background-color: white;
+    width: 15%;
+    font-size: 18px;
+    height: 80%;
+    padding-top: 30px;
+    margin-top: 50px;
+    margin-inline: 4%;
+    box-shadow: 0 10px 20px;
+}
+.skills .card-5 {
+    background-color: white;
+    width: 15%;
+    font-size: 18px;
+    height: 80%;
+    padding-top: 30px;
+    margin-top: 50px;
+    margin-inline: 4%;
+    box-shadow: 0 10px 20px;
+}
+
+.skills .card-1 img {
+    height: 90%;
+    width: 90%;
+    padding-top: 10px;
+}
+.skills .card-2 img {
+    height: 90%;
+    width: 80%;
+    padding-top: 10px;
+}
+.skills .card-3 img {
+    height: 85%;
+    width: 100%;
+    padding-top: 20px;
+}
+.skills .card-4 img {
+    height: 80%;
+    width: 70%;
+    padding-top: 20px;
+}
+.skills .card-5 img {
+    height: 75%;
+    width: 60%;
+    padding-top: 30px;
+}
+
+#project-section {
+    background-color: black;
+    height: 300%;
+    font-size: x-large;
+    display: block;
+    text-align: center;
+    padding-block: 40px;
+    color: white;
+}
+
+.projects {
+    background-color: black;
+    display: flex;
+    margin-inline: 10%;
+    margin-bottom: 15%;
+    margin-top: 8%;
+    color: black;
+}
+
+.projects .card-1 {
+    background-color: white;
+    height: 300px;
+    width: 400px;
+    margin-right: 5%;
+    padding-top: 3%;
+}
+.projects .card-2 {
+    background-color: white;
+    height: 300px;
+    width: 400px;
+    margin-right: 5%;
+    padding-top: 3%;
+}
+.projects .card-3 {
+    background-color: white;
+    height: 300px;
+    width: 400px;
+    margin-right: 5%;
+    padding-top: 3%;
+}
+.projects .card-4 {
+    background-color: white;
+    height: 300px;
+    width: 400px;
+    padding-top: 3%;
+}
+
+#contact-form h2 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-size: 36px;
+}
+
+#contact-form form .input-box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-inline: 20%;
+}
+
+#contact-form form .input-box input,
+#contact-form form textarea {
+    width: 70%;
+    padding: 1.5em;
+    font-size: 18px;
+    color: black;
+    background: rgb(242, 250, 247);
+    border-radius: 1rem;
+    margin: 1rem 0;
+    resize: none;
+}
+
+.footer {
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    padding: 40px 0;
+    background-color: black;
+}
+
+.footer .social {
+    text-align: center;
+    padding-bottom: 25px;
+    color: white;
+}
+
+.footer .social a{
+    font-size: 24px;
+    color: white;
+    border: 2px solid brown;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 8px;
+    box-shadow: inset 0 0 10px brown, 0 0 10px brown;
+    transition: 0.3s ease;
+}
+
+.footer .social a:hover {
+    transform: scale(1.2) translate(-10px);
+    color: brown;
+    border: 2px solid brown;
+}
+
+.footer ul {
+    margin-top: 0;
+    padding: 0;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    font-size: 18px;
+    margin: auto;
+    margin-bottom: 30px;
+}
